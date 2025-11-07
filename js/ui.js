@@ -274,7 +274,7 @@ function displayTask(task) {
          <span style="vertical-align:middle;">unsynced</span>
        </span>`
     : "";
-
+// This will dynamically create the cards to display the data
   const html = `
     <div class="card-panel white row valign-wrapper" data-id="${task.id}">
       <div class="col s2">
